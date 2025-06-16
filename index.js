@@ -1,3 +1,3 @@
-import DebouncedInput from './src/DebouncedInput.vue'
+import DebouncedInput from './src/DebouncedInput.vue';
 
-export { DebouncedInput }
+export default DebouncedInput;
