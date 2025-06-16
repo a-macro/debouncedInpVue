@@ -2,13 +2,10 @@
     "name": "debouncedinpvue",
     "version": "1.0.0",
     "description": "custom vue 3 components",
-    "main": "./dist/my-vue-components.umd.cjs",
-    "module": "./dist/my-vue-components.js",
+    "main": "index.js",
+    "module": "index.js",
     "exports": {
-        ".": {
-            "import": "./dist/my-vue-components.js",
-            "require": "./dist/my-vue-components.umd.cjs"
-        }
+        ".": "./index.js"
     },
     "scripts": {
         "build": "vite build"
