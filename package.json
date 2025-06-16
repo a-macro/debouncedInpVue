@@ -1,0 +1,24 @@
+{
+    "name": "custom-components",
+    "version": "1.0.0",
+    "description": "custom vue 3 components",
+    "main": "./dist/my-vue-components.umd.cjs",
+    "module": "./dist/my-vue-components.js",
+    "exports": {
+        ".": {
+            "import": "./dist/my-vue-components.js",
+            "require": "./dist/my-vue-components.umd.cjs"
+        }
+    },
+    "scripts": {
+        "build": "vite build"
+    },
+    "peerDependencies": {
+        "vue": "^3.0.0"
+    },
+    "devDependencies": {
+        "vite": "^5.0.0",
+        "vue": "^3.4.0",
+        "@vitejs/plugin-vue": "^5.0.0"
+    }
+}
