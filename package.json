@@ -1,5 +1,5 @@
 {
-    "name": "custom-components",
+    "name": "debouncedinpvue",
     "version": "1.0.0",
     "description": "custom vue 3 components",
     "main": "./dist/my-vue-components.umd.cjs",
