@@ -7,7 +7,7 @@ Includes:
 ## Build
 
 ```bash
-npm install
+npm install git+https://github.com/a-macro/debouncedInpVue.git
 npm run build
 ```
 
